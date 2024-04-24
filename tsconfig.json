@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "noImplicitAny": true, // 不允许隐式的any类型
+    "strictNullChecks": true, // 不允许把null、undefined赋值给其他类型的变量
+    "strictPropertyInitialization": true, // 类的实例属性必须初始化
+    "strictBindCallApply": true, // 严格的bind/call/apply检查
+    "forceConsistentCasingInFileNames": true, //禁止对同一个文件的不一致的引用
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true, // 防止switch语句贯穿(即如果没有break语句后面不会执行)
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "emitDeclarationOnly": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["vite/client"]
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["packages/**/*.ts", "packages/**/*.d.ts"]
+}
