@@ -1,6 +1,6 @@
 {
   "name": "use-dialog-vue3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "files": [
     "dist"
   ],
@@ -34,7 +34,7 @@
     "commit": "git-cz"
   },
   "peerDependencies": {
-    "vue": "~3.3.2"
+    "vue": "^3.3.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
