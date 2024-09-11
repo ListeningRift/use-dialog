@@ -5,7 +5,7 @@ Vue3 Modal Promise Hook
 ## Installation
 
 ```
-npm i use-dialog
+npm i use-dialog-vue3
 ```
 
 ## Getting Started
@@ -13,7 +13,7 @@ npm i use-dialog
 ```html
 <!-- exampleModal.vue -->
 <script setup>
-import { useDialog } from 'use-dialog'
+import { useDialog } from 'use-dialog-vue3'
 
 const props = defineProps<{
   title: string
