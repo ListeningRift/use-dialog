@@ -1,6 +1,6 @@
 {
   "name": "use-dialog-vue3",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "files": [
     "dist"
   ],
@@ -18,11 +18,11 @@
     "type": "git",
     "url": "git+https://github.com/ListeningRift/use-dialog.git"
   },
-  "module": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js"
+      "import": "./dist/index.mjs"
     }
   },
   "scripts": {
